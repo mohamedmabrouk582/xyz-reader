@@ -22,9 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity android:name=".ui.DetailActivity"
-             android:parentActivityName=".ui.ArticleListActivity"
-             />
+
         <activity
             android:name=".ui.ArticleDetailActivity"
             android:theme="@style/Theme.Bacon"
