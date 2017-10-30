@@ -8,13 +8,13 @@
         android:layout_height="match_parent" />
 
     <FrameLayout
-        android:layout_marginTop="@dimen/_10sdp"
         android:id="@+id/up_container"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize">
 
         <ImageButton
+            android:layout_marginLeft="-10dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:id="@+id/action_up"
             android:layout_width="56dp"
